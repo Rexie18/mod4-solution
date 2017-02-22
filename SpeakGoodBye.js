@@ -1,4 +1,4 @@
-(function (window) {
+(function () {
   var byeSpeaker = {};
   byeSpeaker.speak = names;
   var speakWord = "Good Bye";
@@ -8,5 +8,5 @@
 
   window.byeSpeaker = byeSpeaker;
 
-})(window);
+})();
 
