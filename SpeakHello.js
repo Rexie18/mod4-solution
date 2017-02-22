@@ -1,6 +1,6 @@
 (function () {
   var helloSpeaker = {};
-  helloSpeaker.speak= name;
+  helloSpeaker.speak= names;
   var speakWord = "Hello";
     helloSpeaker.speak = function () {
     console.log(speakWord + helloSpeaker.speak);
