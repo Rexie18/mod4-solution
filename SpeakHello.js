@@ -6,6 +6,6 @@
     console.log(speakWord + helloSpeaker.speak);
   }
 
-  window.helloSpeaker.speak = helloSpeaker;
+helloSpeaker.speak = helloSpeaker;
 
 })();
