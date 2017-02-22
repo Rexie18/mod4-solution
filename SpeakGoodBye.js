@@ -6,7 +6,7 @@
     console.log(speakWord + byeSpeaker.speak);
   }
 
-  window.byeSpeaker = byeSpeaker;
+byeSpeaker = byeSpeaker;
 
 })();
 
