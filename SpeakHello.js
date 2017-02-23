@@ -13,7 +13,7 @@ contents of SpeakHello.js inside of an IIFE
 
  DO NOT attach the speakWord variable to the 
  'helloSpeaker' object.*/ 
-(function (this){
+(function (){
  var helloSpeaker = {};
  helloSpeaker.name = names;
 var speakWord = "Hello ";
