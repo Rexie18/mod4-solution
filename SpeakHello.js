@@ -13,7 +13,7 @@ contents of SpeakHello.js inside of an IIFE
 
  DO NOT attach the speakWord variable to the 
  'helloSpeaker' object.*/ 
-(function (window){
+(function (){
  var helloSpeaker = {};
  helloSpeaker.name = name;
 var speakWord = "Hello ";
@@ -27,7 +27,7 @@ helloSpeaker.speak = function() {
   console.log(speakWord  + helloSpeaker.name);
   }
   helloSpeaker.speak = helloSpeaker;
-})(window);
+})();
 
 /* STEP 5: Expose the 'helloSpeaker' object 
 to the global scope. Name it
