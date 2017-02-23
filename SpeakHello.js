@@ -26,7 +26,7 @@ See Lecture 52, part 2 */
 helloSpeaker.speak = function() {
   console.log(speakWord  + helloSpeaker.name);
   }
-  helloSpeaker = helloSpeaker.speak;
+  this.helloSpeaker.speak = helloSpeaker;
 })();
 
 /* STEP 5: Expose the 'helloSpeaker' object 
