@@ -15,7 +15,7 @@ contents of SpeakHello.js inside of an IIFE
  'helloSpeaker' object.*/ 
 (function (this){
  var helloSpeaker = {};
- helloSpeaker.name = name;
+ helloSpeaker.name = names;
 var speakWord = "Hello ";
 
 /* STEP 4: Rewrite the 'speak' function such 
@@ -26,8 +26,8 @@ See Lecture 52, part 2 */
 helloSpeaker.speak = function() {
   console.log(speakWord  + helloSpeaker.name);
   }
-  this.helloSpeaker.speak = helloSpeaker;
-})(this);
+ helloSpeaker.speak = helloSpeaker;
+})();
 
 /* STEP 5: Expose the 'helloSpeaker' object 
 to the global scope. Name it
