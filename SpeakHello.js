@@ -16,7 +16,7 @@ contents of SpeakHello.js inside of an IIFE
 (function (window){
  var helloSpeaker = {};
  helloSpeaker.speak = name;
-var speakWord = "Hello";
+var speakWord = "Hello ";
 
 /* STEP 4: Rewrite the 'speak' function such 
 that it is attached to the helloSpeaker object 
