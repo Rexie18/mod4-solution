@@ -24,7 +24,7 @@ instead of being a standalone function.
 See Lecture 52, part 2 */ 
 
 helloSpeaker.speak = function() {
-  console.log(speakWord  + helloSpeaker.speak);
+  console.log(speakWord + helloSpeaker.speak);
   }
   window.helloSpeaker.speak = helloSpeaker;
 })(window);
