@@ -22,8 +22,8 @@
  See Lecture 52, part 2
 */
 	helloSpeaker.speak = function(name){
-	console.log(speakWord  + helloSpeaker.names);
-  }
+	console.log(speakWord  + " " + helloSpeaker.names);
+  } 
   window.helloSpeaker = helloSpeaker;
 })(window);
 
