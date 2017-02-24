@@ -13,7 +13,7 @@
 */
 (function(window){
 	var helloSpeaker = {};
-	helloSpeaker.names = name;
+	
 	var speakWord = "Hello ";
 
 /* STEP 4: Rewrite the 'speak' function such that 
@@ -22,7 +22,7 @@
  See Lecture 52, part 2
 */
 	helloSpeaker.speak = function(name){
-	console.log(speakWord  + " " + helloSpeaker.names);
+	console.log(speakWord  + " " + name);
   } 
   window.helloSpeaker = helloSpeaker;
 })(window);
